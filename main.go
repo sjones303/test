@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/sjones303/test/names"
+)
 
 func main() {
-	fmt.Println("Hello, World.")
+	fmt.Printf("Hello, %s.\n", names.World())
 }
